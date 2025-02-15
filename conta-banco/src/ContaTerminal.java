@@ -29,6 +29,7 @@ public class ContaTerminal {
 
         System.out.print("Muito Bem! Agora digite seu saldo: ");
         saldo = scanner.nextFloat();
+        scanner.close();
 
         //TODO: Exibir a mensagem conta criada
         System.out.println();
